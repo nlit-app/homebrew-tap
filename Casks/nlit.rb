@@ -4,23 +4,23 @@ cask "nlit" do
 
   on_macos do
     on_intel do
-      sha256 "48479e69b11135b28a857f5ac808fbc939751e3e87856fd2c4b11ecb5f98ef48"
-      url "https://github.com/makam92/not-lost-in-translations/releases/download/v#{version}/nlit_#{version}_darwin_amd64.tar.gz"
+      sha256 "7873bdfb7c26394e0ad4a62d4ef8a6f0f19902229ae8ed213677c394475a2f0e"
+      url "https://github.com/nlit-app/homebrew-tap/releases/download/v#{version}/nlit_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "0933c75b8432c9d940039ded8cad87791f94f334bb1a4fc2a980027b7fbf3b31"
-      url "https://github.com/makam92/not-lost-in-translations/releases/download/v#{version}/nlit_#{version}_darwin_arm64.tar.gz"
+      sha256 "148ba434b7c7c0e073b9582c837cf891751d6904a68769b19cbf8b4caf393243"
+      url "https://github.com/nlit-app/homebrew-tap/releases/download/v#{version}/nlit_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "adcdf94f74074adde155967f40bb57fa4dce976469fb772a76d2708d2927d9a1"
-      url "https://github.com/makam92/not-lost-in-translations/releases/download/v#{version}/nlit_#{version}_linux_amd64.tar.gz"
+      sha256 "e320aec662f566376cee126ada4201d1730fec8064afc1dc5dbb939850c8e110"
+      url "https://github.com/nlit-app/homebrew-tap/releases/download/v#{version}/nlit_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "382c82c2f888a5f6663447b5b20be3fadc3d84962e7cf51df1448158a234235e"
-      url "https://github.com/makam92/not-lost-in-translations/releases/download/v#{version}/nlit_#{version}_linux_arm64.tar.gz"
+      sha256 "0b9745920065b1225615bc872650085f8a31af32b0ed7f04c62b1564464ef6b4"
+      url "https://github.com/nlit-app/homebrew-tap/releases/download/v#{version}/nlit_#{version}_linux_arm64.tar.gz"
     end
   end
 
